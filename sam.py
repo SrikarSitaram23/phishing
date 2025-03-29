@@ -100,4 +100,4 @@ detector = PhishingDetector()
 result = detector.analyze("https://ilabs.cyberthreya.com/#/")
 print(f"Analysis result: {result}")
 print(f"Phishing score: {detector.score}")
-print("Hello world")
+
